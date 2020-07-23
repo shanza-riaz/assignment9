@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css"/>
+</head>
+<body>
+    <h1>assignment 9 (chapter 1 to 67)</h1>
+    <a href="#" onclick="helo()">click me</a>
+    <img src="pix/apple-iphone-x-pakistan-priceoye-tz01r.jpg" style="width: 200px;height: 200px;" onclick="mobile()"/>
+    <img src="pix/copper_127f9631-c511-4488-a524-4ea0f70d05a5_1024x.webp" style="width: 200px;height: 200px;"  onclick="mobile()"/>
+    <img src="pix/pro1_1568639224-500x500.jpg" style="width: 200px;height: 200px;" onclick="mobile()"/>
+    <script src="app.js"></script>
+    <table style="border: 2px solid black;" id="tab">
+        <tr>
+            <td>index</td>
+            <td>name</td>
+            <td>class</td>
+            <td><button onclick="del()">Delete</button></td>
+        </tr>
+        <tr>
+         <td>0</td>
+         <td>ali</td>
+         <td>2</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td>ahmad</td>
+         <td>4</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>2</td>
+         <td>usama</td>
+         <td>10</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>3</td>
+         <td>bilal</td>
+         <td>3</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>4</td>
+         <td>abiha</td>
+         <td>2</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>5</td>
+         <td>muskan</td>
+         <td>1</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>6</td>
+         <td>alisha</td>
+         <td>5</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>7</td>
+         <td>ayesha</td>
+         <td>8</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>8</td>
+         <td>noor</td>
+         <td>4</td>
+         <td><button>Delete</button></td>
+     </tr>
+     <tr>
+         <td>9</td>
+         <td>bushra</td>
+         <td>1</td>
+         <td><button>Delete</button></td>
+     </tr>
+    </table>
+    <img src="pix/a.jpg" style="width: 200px; height: 200px;"
+     onmouseover="this.src='pix/b.jpg'" onmouseout="this.src='pix/a.jpg'" /> 
+     <div>
+         <input class="input" id="number" value="0">
+        <button id="sub">-</button>
+        <input type="number" value="0"/>
+        <button type="button" onClick="onClick()">Click me</button>
+        <p>Clicks: <a id="clicks">0</a></p>
+     </div>
+
+     <div>
+         <img src="pix/m1.jpg" onclick="showimage(this)"/>
+         <img src="pix/m2.jpg" onclick="showimage(this)"/>
+         <img src="pix/m3.jpg" onclick="showimage(this)"/>
+     </div>
+     <div class="model">
+         <img src="" alt="" id="modelimage"/>
+     </div>
+
+
+
+
+     <div>
+        <h1> DOM </h1>
+        <div id=”form-content” class=”content”>
+        <label for=”first-name”>First Name</label>
+        <input type=”text” id=”first-name” />
+        <label for=”last-name”>Last Name</label>
+        <input type=”text” id=”last-name” />
+        <label for=”email”>Email</label>
+        <input type=”text” id=”email” />
+        </div>
+        <div id=”main-content” class=”content”>
+        <p class=”render”> First Name : Alex</p>
+        <p class=”render” id=”lastName”>Last Name: Bank</p>
+        <p class=”render”> Email : alexbank@example.com</p>
+        <p class=”render”> Country : Pakistan </p>
+        <p class=”render”> contact : +92 300 1234567</p>
+        </div>
+        </div>
+        
+</body>
+</html>
